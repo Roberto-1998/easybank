@@ -1,0 +1,7 @@
+.shared-button{
+    padding: 8px 20px;
+    border-radius: 18px;
+    color: white;
+    border-color: transparent;
+    background-image: linear-gradient(to right, hsl(192, 70%, 51%), hsl(136, 65%, 51%))
+}
