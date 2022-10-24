@@ -10,7 +10,7 @@
  
   "scripts": {
  
-   
+   "format":"prettier ./src/** --write",
   "dev": "webpack-dev-server",
  
    
