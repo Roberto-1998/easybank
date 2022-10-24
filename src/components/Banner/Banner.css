@@ -3,7 +3,7 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-padding-bottom: 80px;
+  padding-bottom: 80px;
   background-color: hsl(0, 0%, 100%);
 }
 
@@ -50,18 +50,14 @@ padding-bottom: 80px;
   .banner-right-box {
     flex-basis: 60%;
     position: relative;
-   
-    
   }
 
   .banner-right-box img {
     position: absolute;
     bottom: -70px;
-
   }
 
   .banner-left-box {
-   
     flex-basis: 30%;
     align-items: flex-start;
     margin-top: 0;
@@ -72,5 +68,12 @@ padding-bottom: 80px;
     text-align: start;
     font-size: 30px;
     font-weight: 400;
+  }
+}
+
+
+@media (min-width: 850px) {
+  .banner-main-box{
+    height: 70vh;
   }
 }

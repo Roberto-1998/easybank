@@ -15,11 +15,11 @@ p {
   padding: 0;
 }
 
-button{
+button {
   cursor: pointer;
 }
 
-h1,h4{
-color: hsl(233, 26%, 24%);
+h1,
+h4 {
+  color: hsl(233, 26%, 24%);
 }
-
