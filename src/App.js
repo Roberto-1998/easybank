@@ -1,11 +1,12 @@
 import React, { Suspense } from 'react';
 import { Helmet } from './components/Helmet';
+import { Loader } from './components/Loader';
 
 import { Articles, Banner, Footer, Info, Navbar } from './components/modules';
 
 const App = () => {
   return (
-    <Suspense fallback={<div>Loading...</div>}>
+    <Suspense fallback={<Loader />}>
       <Helmet
         title={'Easybank App- Tu banco de confianza'}
         description={
