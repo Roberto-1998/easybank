@@ -4,7 +4,7 @@ import './Navbar.css';
 import { FaTimes, FaStream } from 'react-icons/fa';
 import useToggle from '../../hooks/useToggle';
 import { Button } from '../shared/Button';
-import { menuItems } from '../../contants/menu-list';
+import { menuItems } from '../../constants/menu-list';
 import { Logo } from '../shared/Logo';
 
 const Navbar = () => {

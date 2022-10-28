@@ -1,5 +1,5 @@
 import React from 'react';
-import { infoBank } from '../../contants/info-bank';
+import { infoBank } from '../../constants/info-bank';
 import './Info.css';
 
 const Info = () => {

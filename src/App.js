@@ -1,20 +1,15 @@
-import React from 'react';
-import './App.css';
-import { Articles } from './components/Articles';
-import { Banner } from './components/Banner';
-import { Footer } from './components/Footer';
-import { Info } from './components/Info';
-import { Navbar } from './components/Navbar';
+import React, { Suspense } from 'react';
+import { Articles, Banner, Footer, Info, Navbar } from './components/modules';
 
 const App = () => {
   return (
-    <>
+    <Suspense fallback={<div>Loading...</div>}>
       <Navbar />
       <Banner />
       <Info />
       <Articles />
       <Footer />
-    </>
+    </Suspense>
   );
 };
 
