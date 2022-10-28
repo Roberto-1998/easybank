@@ -23,3 +23,7 @@ h1,
 h4 {
   color: hsl(233, 26%, 24%);
 }
+
+ul li{
+  list-style: none;
+}

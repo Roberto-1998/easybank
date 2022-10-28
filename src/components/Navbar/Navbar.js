@@ -1,11 +1,11 @@
 import React from 'react';
 import './Navbar.css';
-import logo from '../../../public/images/logo.svg';
+
 import { FaTimes, FaStream } from 'react-icons/fa';
 import useToggle from '../../hooks/useToggle';
 import { Button } from '../shared/Button';
 import { menuItems } from '../../contants/menu-list';
-import { Logo } from '../shared/Button/Logo';
+import { Logo } from '../shared/Logo';
 
 const Navbar = () => {
   const { toggle, handleToggle } = useToggle();
