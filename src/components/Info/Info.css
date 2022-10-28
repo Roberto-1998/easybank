@@ -45,11 +45,12 @@
   gap: 10px;
 }
 
+.info-card-box img {
+  width: 60px;
+  height: 60px;
+}
 
 @media (min-width: 700px) {
-
-  
-  
   .info-card-box {
     flex-basis: 50%;
   }
@@ -58,8 +59,6 @@
     font-size: 25px;
     font-weight: 400;
   }
-
-
 }
 
 @media (min-width: 1000px) {

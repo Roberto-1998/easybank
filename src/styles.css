@@ -10,7 +10,8 @@ body {
 }
 
 h1,
-p, ul {
+p,
+ul {
   margin: 0;
   padding: 0;
 }
@@ -24,7 +25,6 @@ h4 {
   color: hsl(233, 26%, 24%);
 }
 
-ul li{
+ul li {
   list-style: none;
 }
-

@@ -21,7 +21,11 @@ const Navbar = () => {
             ))}
           </ul>
 
-          <button className='navbar-button-toggle' onClick={handleToggle}>
+          <button
+            aria-label='navbar-toggle'
+            className='navbar-button-toggle'
+            onClick={handleToggle}
+          >
             {toggle ? <FaTimes /> : <FaStream />}
           </button>
 

@@ -57,7 +57,7 @@
   padding: 0 30px 10px 30px;
 }
 
-.article-card-text h4{
+.article-card-text h4 {
   font-size: 1.2em;
 }
 
@@ -65,14 +65,12 @@
   .articles-card-content {
     gap: 40px;
     justify-content: space-between;
-    
   }
   .articles-content > h1 {
     font-size: 25px;
     font-weight: 400;
   }
   .article-card img {
-   
     height: 200px;
   }
 
