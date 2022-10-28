@@ -5,6 +5,7 @@ import { FaTimes, FaStream } from 'react-icons/fa';
 import useToggle from '../../hooks/useToggle';
 import { Button } from '../shared/Button';
 import { menuItems } from '../../contants/menu-list';
+import { Logo } from '../shared/Button/Logo';
 
 const Navbar = () => {
   const { toggle, handleToggle } = useToggle();
@@ -13,7 +14,7 @@ const Navbar = () => {
     <>
       <div className='navbar-fixed'>
         <div className='navbar-content'>
-          <img className='navbar-logo' src={logo} alt='EasyBank' />
+          <Logo />
           <ul className='navbar-md-list'>
             {menuItems.map((item) => (
               <li key={item}>{item}</li>
