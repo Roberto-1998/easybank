@@ -47,14 +47,25 @@
 
 
 @media (min-width: 700px) {
+
+  
+  
   .info-card-box {
     flex-basis: 50%;
   }
+
+  .info-content > h1 {
+    font-size: 25px;
+    font-weight: 400;
+  }
+
+
 }
 
 @media (min-width: 1000px) {
   .info-content {
     align-items: flex-start;
+    width: 90%;
   }
 
   .text-info {

@@ -81,6 +81,9 @@
   "html-webpack-plugin": "^5.5.0",
  
    
+  "interpolate-html-plugin": "^4.0.0",
+ 
+   
   "mini-css-extract-plugin": "^2.6.1",
  
    

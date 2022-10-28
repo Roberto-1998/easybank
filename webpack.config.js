@@ -1,6 +1,7 @@
 const path = require('path');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const InterpolateHtmlPlugin = require('interpolate-html-plugin');
 
 module.exports = {
   mode: 'development',
@@ -13,8 +14,12 @@ module.exports = {
 
   plugins: [
     new MiniCssExtractPlugin(),
+    new InterpolateHtmlPlugin({
+      PUBLIC_URL: path.resolve(__dirname, 'public'), // can modify `static` to another name or get it from `process`
+    }),
     new HtmlWebpackPlugin({
       template: path.resolve(__dirname, 'src', 'index.html'),
+      favicon: path.resolve(__dirname, 'public', 'images', 'favicon-32x32.png'),
     }),
   ],
 
